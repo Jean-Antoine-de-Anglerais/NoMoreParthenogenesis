@@ -1,11 +1,13 @@
 ﻿using ai.behaviours;
+using BepInEx;
 using HarmonyLib;
 using System.Reflection;
-using UnityEngine;
+using static ConstantNamespace.ConstantClass;
 
-namespace NoMoreParthenogenesis_NativeModloader
+namespace NoMoreParthenogenesis_BepInEx
 {
-    internal class Main : MonoBehaviour
+    [BepInPlugin(pluginGuid, pluginName, pluginVersion)]
+    public class Main : BaseUnityPlugin
     {
         public static Harmony harmony = new Harmony(MethodBase.GetCurrentMethod().DeclaringType.Namespace);
         private bool _initialized = false;

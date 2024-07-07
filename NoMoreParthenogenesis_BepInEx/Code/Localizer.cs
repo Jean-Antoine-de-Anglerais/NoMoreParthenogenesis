@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace NoMoreParthenogenesis_NativeModloader
+namespace NoMoreParthenogenesis_BepInEx
 {
     public static class Localizer
     {
