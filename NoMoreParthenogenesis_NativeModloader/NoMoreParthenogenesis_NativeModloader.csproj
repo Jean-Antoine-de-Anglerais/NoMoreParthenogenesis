@@ -60,21 +60,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Code\Main.cs" />
+    <Compile Include="Code\StaticStuff.cs" />
+    <Compile Include="Code\Patches.cs" />
     <Compile Include="Code\Localizer.cs" />
     <Compile Include="Code\WorldBoxMod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Resourses\Resource.Designer.cs">
+    <Compile Include="Assemblies\Resource.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource.resx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resourses\0Harmony.dll" />
-    <EmbeddedResource Include="Resourses\Mono.Cecil.dll" />
-    <EmbeddedResource Include="Resourses\MonoMod.RuntimeDetour.dll" />
-    <EmbeddedResource Include="Resourses\MonoMod.Utils.dll" />
-    <EmbeddedResource Include="Resourses\Resource.resx">
+    <EmbeddedResource Include="Assemblies\0Harmony.dll" />
+    <EmbeddedResource Include="Assemblies\Mono.Cecil.dll" />
+    <EmbeddedResource Include="Assemblies\MonoMod.RuntimeDetour.dll" />
+    <EmbeddedResource Include="Assemblies\MonoMod.Utils.dll" />
+    <EmbeddedResource Include="Assemblies\Resource.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource.Designer.cs</LastGenOutput>
     </EmbeddedResource>

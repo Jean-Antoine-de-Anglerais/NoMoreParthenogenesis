@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NoMoreParthenogenesis_NativeModloader.Resourses {
+namespace NoMoreParthenogenesis_NativeModloader.Assemblies {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace NoMoreParthenogenesis_NativeModloader.Resourses {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("NoMoreParthenogenesis_NativeModloader.Resourses.Resource", typeof(Resource).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("NoMoreParthenogenesis_NativeModloader.Assemblies.Resource", typeof(Resource).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
