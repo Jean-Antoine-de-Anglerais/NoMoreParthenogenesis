@@ -1,0 +1,8 @@
+{
+  "name": "No More Parthenogenesis",
+  "author": "Jean-Antoine d'Anglerais (le_ombre)",
+  "version": "1.0.0.0",
+  "targetGameBuild": 558,
+  "description": "This small mod fixes the breeding of civilized units. Now they can only breed if there are 2 of them and only if they are of different sexes.",
+  "iconPath": "icon.png"
+}

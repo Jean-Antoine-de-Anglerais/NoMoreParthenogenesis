@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoMoreParthenogenesis_Nativ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoMoreParthenogenesis_BepInEx", "NoMoreParthenogenesis_BepInEx\NoMoreParthenogenesis_BepInEx.csproj", "{16D9A00E-5CB7-4FF8-841D-7870559F0685}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoMoreParthenogenesis_NCMS", "NoMoreParthenogenesis_NCMS\NoMoreParthenogenesis_NCMS.csproj", "{191B91DC-7AF0-415A-BEA4-45696835818C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{16D9A00E-5CB7-4FF8-841D-7870559F0685}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16D9A00E-5CB7-4FF8-841D-7870559F0685}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16D9A00E-5CB7-4FF8-841D-7870559F0685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{191B91DC-7AF0-415A-BEA4-45696835818C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{191B91DC-7AF0-415A-BEA4-45696835818C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{191B91DC-7AF0-415A-BEA4-45696835818C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{191B91DC-7AF0-415A-BEA4-45696835818C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
