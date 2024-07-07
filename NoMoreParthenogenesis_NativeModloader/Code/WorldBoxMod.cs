@@ -1,13 +1,5 @@
-﻿using ai;
-using ai.behaviours;
-using HarmonyLib;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
+﻿using System.IO;
 using System.Reflection;
-using System.Reflection.Emit;
-using UnitsLogger_BepInEx;
 using UnityEngine;
 
 namespace NoMoreParthenogenesis_NativeModloader
