@@ -11,7 +11,7 @@ namespace NoMoreParthenogenesis_BepInEx
 
             templanguage = language;
 
-            if (templanguage != "ru" && templanguage != "en")
+            if (templanguage != "ru" && templanguage != "en" && templanguage != "cz" && templanguage != "ch")
             {
                 templanguage = "en";
             }
