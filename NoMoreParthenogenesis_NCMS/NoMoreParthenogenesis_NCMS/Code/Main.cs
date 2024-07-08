@@ -21,7 +21,7 @@ namespace NoMoreParthenogenesis_NCMS
             Localizer.SetLocalization("ru", "gender_unknown", "Неизвестно");
             Localizer.SetLocalization("en", "gender_unknown", "Unknown");
             Localizer.SetLocalization("cz", "gender_unknown", "不便透露");
-            Localizer.SetLocalization("ch", "gender_unknown", ":(");
+            Localizer.SetLocalization("ch", "gender_unknown", "：（");
 
             Localizer.SetLocalization("ru", "gender_male", "Мужской");
             Localizer.SetLocalization("en", "gender_male", "Male");
