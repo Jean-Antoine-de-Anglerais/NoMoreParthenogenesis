@@ -31,8 +31,8 @@ namespace NoMoreParthenogenesis_NativeModloader
 
                 Localizer.SetLocalization("ru", "gender_female", "Женский");
                 Localizer.SetLocalization("en", "gender_female", "Female");
-            Localizer.SetLocalization("cz", "gender_female", "女");
-            Localizer.SetLocalization("ch", "gender_female", "女");
+                Localizer.SetLocalization("cz", "gender_female", "女");
+                Localizer.SetLocalization("ch", "gender_female", "女");
 
                 harmony.Patch(AccessTools.Method(typeof(CityBehProduceUnit), "produceNewCitizen"),
                 transpiler: new HarmonyMethod(AccessTools.Method(typeof(Patches), "produceNewCitizen_Transpiler")));
